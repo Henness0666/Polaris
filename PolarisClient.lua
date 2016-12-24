@@ -9,18 +9,12 @@
 		Program:		Polaris
 		Class:          PolarisClient.lua
 		Description:    <Description>
-		Author:         Henness                   Date: 12/21/16 23:18
+		Author:         Brandon Henness          Date: 12/21/16 23:18
 		Notes:          <Notes>
 	|-------------------------------------------------------------------|
 ]]--
 
-local pInfo = {} -- Program info to be called within the file.
-pInfo = {
-	programName = "Polaris" 			-- Program Name
-	className = "PolarisClient" 		-- File Name
-	author = "Henness" 					-- Author
-	version = 1.0 						-- Version
-}
+require 'Addons.PolarisAPI'
 
 -- Functions
 	
